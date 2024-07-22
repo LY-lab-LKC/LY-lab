@@ -1,0 +1,233 @@
+/*--------------------------------------------------------------
+# Front Section
+--------------------------------------------------------------*/
+#front {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(238, 28, 28, 0.5), rgba(181, 38, 38, 0.2)), url("../img/heartbeat.gif") top center;
+    /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/cells.jpg") top center; */
+    /* background: linear-gradient(rgba(238, 28, 28, 0.5), rgba(181, 38, 38, 0.2)), url("../img/cells.jpg") top center; */
+    background-size: cover;
+    position: relative;
+    margin-bottom: -90px;
+  }
+  
+  #front .front-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #front h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -1px 0 2px #2f4d5a;
+  }
+  
+  #front h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: -1px 0 2px #2f4d5a;
+  }
+  
+  #front .aboutus-btn {
+    font-size: 36px;
+    display: inline-block;
+    padding: 4px 0;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #front .aboutus-btn:hover {
+    padding-top: 8px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  @media (min-width: 1024px) {
+    #front {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #front h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #front h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    /* color: #2f4d5a; */
+    color: #c9321e;
+    z-index: 2;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 122px;
+    height: 66px;
+    background: url("../img/section-title-bg.png") no-repeat;
+    z-index: -1;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+  .team-img {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .team-img:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+  }
+
+
+
+
+
+  /*--------------------------------------------------------------
+# publication
+--------------------------------------------------------------*/
+.publication {
+  transition: all 0.3s ease-in-out;
+  background-color: #fcf4f4;
+}
+
+
+.publication .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.publication .icon-box::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.publication .icon-box:hover::before {
+  background: #67b0d1;
+  top: 0;
+  border-radius: 0px;
+}
+
+.publication .icon {
+  margin-bottom: 15px;
+}
+
+.publication .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #d16767;
+  transition: all 0.3s ease-in-out;
+}
+
+.publication .title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.publication .title a {
+  color: #111;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+
+.publication .icon-box:hover .title a,
+.publication .icon-box:hover .description {
+  color: #fff;
+}
+
+.publication .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.publication .viewmore {
+  text-align: center;
+  padding: 6px 16px;
+  margin-top: 50px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.publication .viewmore i {
+  transition: all 0.3s;
+}

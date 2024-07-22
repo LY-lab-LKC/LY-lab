@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block style %}index{% endblock %}
+
+{% block NavHome %}active{% endblock %}
+
+{% block HeaderClass %}header-transparent{% endblock %}
+
+{% block front %}
+
+  <!-- Front Section -->
+  <section id="front">
+    <div class="front-container" data-aos="fade-up">
+      <h1>Welcome to Lynn Lab</h1>
+      <h2>We are a team of lab researchers!!</h2>
+      <a href="#aboutus" class="aboutus-btn scrollto"><i class="bx bx-down-arrow-alt"></i></a>
+    </div>
+  </section>
+  <!-- End Front -->
+
+{% endblock %}
+
+{% block main %}
+<main id="main">
+
+    <section id="aboutus" class="aboutus">
+      <div class="container">
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>About Us</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="col-lg-7 col-md-8 align-middle mx-auto">
+          <div class="team-img" data-aos="fade-in" data-aos-delay="100">
+            <img src="/static/img/cta-bg.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+{% endblock %}
