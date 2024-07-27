@@ -29,6 +29,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  transition: all ease-in-out 1s;
 }
 
 .section-title h2 {
@@ -38,6 +39,7 @@ section {
   margin-bottom: 30px;
   color: #2f4d5a;
   z-index: 2;
+  transition: all ease-in-out 1s;
 }
 
 .section-title h2::after {
@@ -50,13 +52,8 @@ section {
   height: 66px;
   background: url(../img/section-title-bg.png) no-repeat;
   z-index: -1;
+  transition: all ease-in-out 0.3s;
 }
-
-.section-title p {
-  margin-bottom: 0;
-}
-
-
 
 
 
@@ -111,10 +108,12 @@ body {
 
 .text-center {
   text-align: center !important;
+  transition: all ease-in-out 0.3s;
 }
 
 .w-100 {
   width: 100% !important;
+  transition: all ease-in-out 0.3s;
 }
 
 .position-absolute {
@@ -124,6 +123,7 @@ body {
 .member-profile img {
   width: 100px;
   height: 100px;
+  transition: all ease-in-out 0.3s;
 }
 
 .rounded-circle {
