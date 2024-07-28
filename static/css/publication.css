@@ -71,6 +71,11 @@
     color: black;
   }
 
+  .pubs-title:hover {
+    font-weight: bold;
+    color: #d16767;
+  }
+
   .pubs-name {
     font-size: 14px;
     transition: all ease-in-out 0.3s;
