@@ -178,7 +178,8 @@
 }
 
 .publication .icon-box:hover::before {
-  background: #67b0d1;
+  /* background: #67b0d1; */
+  background: #f05c5c;
   top: 0;
   border-radius: 0px;
 }
