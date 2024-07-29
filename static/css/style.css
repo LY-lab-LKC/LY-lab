@@ -76,7 +76,9 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 24px 0;
-  background: rgba(238, 28, 28, 1);
+  /* background: rgba(238, 28, 28, 1); */
+  background: #F8696B;
+  /* background: #F8696B, url("../img/cells.jpg") top center; */
   /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.485)), url("../img/cells.jpg") top center; */
   /* background: linear-gradient(rgba(238, 28, 28, 0.5), rgba(232, 41, 41, 0.4)), url("../img/cells.jpg"") top center; */
 }
@@ -87,7 +89,8 @@ h6 {
 
 #header.header-scrolled {
   /* background: rgba(55, 142, 181, 0.9);*/
-  background: rgba(238, 28, 28, 1); 
+  /* background: rgba(238, 28, 28, 1);  */
+  background: #F8696B;
   /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 141, 181, 0.485)), url("../img/cells.jpg") top center; */
   /* background: linear-gradient(rgba(238, 28, 28, 0.5), rgba(232, 41, 41, 0.4)), url("../img/cells.jpg") top center; */
   padding: 12px;
@@ -171,6 +174,8 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px 10px 10px 10px;
+  color: #5A8AC6;
 }
 
 /**
@@ -292,7 +297,7 @@ h6 {
 
 
 #footer {
-  background: #263f49;
+  background: #F8696B;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -306,7 +311,7 @@ h6 {
   margin-top: -90px;
   margin-bottom: 15px;
   background: white;
-  color: #2f4d5a;
+  color: #ff9697;
   border-top: 4px solid #67b0d1;
   text-align: center;
   padding: 30px 20px;
@@ -330,7 +335,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: #ff9697;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -343,7 +348,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #F8696B;
   color: #fff;
   text-decoration: none;
 }
@@ -368,7 +373,7 @@ h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #b5d9e9;
+  color: #F8696B;
   font-size: 18px;
   line-height: 1;
 }
@@ -417,18 +422,18 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #67b0d1;
+  background: #F8696B;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #409cc5;
+  background: #F8696B;
 }
 
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid #FA9573;
   text-align: center;
   padding-top: 30px;
 }

@@ -8,7 +8,7 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 30px;
-    color: #2f4d5a;
+    color: #5A8AC6;
     z-index: 2;
   }
   
@@ -27,7 +27,7 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 30px;
-    color: #2f4d5a;
+    color: #5A8AC6;
     z-index: 2;
   }
   
@@ -46,6 +46,16 @@
   .section-title p {
     margin-bottom: 0;
     margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .section-title p strong {
+    color: #F8696B;
+    font-weight: bolder;
+  }
+
+  .gallery-event {
+    padding-bottom: 80px;
   }
 
   .img-wrapper {
