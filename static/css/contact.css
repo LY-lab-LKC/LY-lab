@@ -13,7 +13,9 @@
   }
   
   section {
-    padding: 60px 0 80px;
+    /* padding: 60px 0 80px; */
+    padding-top: 40px;
+    padding-bottom: 60px;
     overflow: hidden;
   }
   
@@ -31,7 +33,7 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 30px;
-    color: #5A8AC6;
+    color: #894d7b;
     z-index: 2;
   }
   

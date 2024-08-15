@@ -1,0 +1,156 @@
+.title {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #2f4d5a;
+  z-index: 2;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+.inner-page {
+  padding-bottom: 0;
+}
+
+
+/* .section-bg {
+   background-color: #d3e4ee;
+} 
+
+.section-bg-2 {
+  background-color: #f4eeeb;
+} */
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  transition: all ease-in-out 1s;
+}
+
+.section-title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #894d7b;
+  z-index: 2;
+  transition: all ease-in-out 1s;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+  height: 66px;
+  background: url(../img/section-title-bg.png) no-repeat;
+  z-index: -1;
+  transition: all ease-in-out 0.3s;
+}
+
+
+
+body {
+  margin-top: 20px;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.border-0 {
+  border: 0 !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+
+.position-title {
+  text-align: center;
+  font-family: "Carme", sans-serif;
+  font-size:40px;
+  font-weight: bolder;
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 2;
+}
+
+.card {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  min-height: 300px;
+}
+
+.member-profile {
+  top: -80px;
+  left: 0;
+}
+
+.text-center {
+  text-align: center !important;
+  transition: all ease-in-out 0.3s;
+}
+
+.w-100 {
+  width: 100% !important;
+  transition: all ease-in-out 0.3s;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.member-profile img {
+  width: 150px;
+  height: 150px;
+  transition: all ease-in-out 0.3s;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}

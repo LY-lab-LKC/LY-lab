@@ -13,7 +13,8 @@
   }
   
   section {
-    padding: 60px 0;
+    padding-top: 40px;
+    padding-bottom: 60px;
     overflow: hidden;
   }
   
@@ -28,10 +29,10 @@
   
   .section-title h2 {
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
     position: relative;
     margin-bottom: 30px;
-    color: #5A8AC6;
+    color: #894d7b;
     z-index: 2;
   }
   
@@ -62,7 +63,7 @@
   .pubs-year {
     font-size: 35px;
     font-weight: bold;
-    color: #df5c5e;
+    color: #60094b;
   }
 
   .pubs-title {
@@ -73,24 +74,10 @@
 
   .pubs-title:hover {
     font-weight: bold;
-    color: #FA9573;
+    color: #695DAB;
   }
 
   .pubs-name {
-    font-size: 14px;
+    font-size: 18px;
     transition: all ease-in-out 0.3s;
-  }
-
-  .btn {
-    padding: 6px 16px;
-    font-weight: bold;
-    /* border-color: black;
-    border-style: solid; */
-    border-radius: 10px; 
-    background-color: #F9E786;
-    transition: all ease-in-out 0.3s;
-  }
-
-  .btn:hover {
-    background-color: #FDC97D;
   }

@@ -13,7 +13,8 @@
   }
   
   section {
-    padding: 60px 0;
+    padding-top: 40px;
+    padding-bottom: 60px;
     overflow: hidden;
   }
 
@@ -27,7 +28,7 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 30px;
-    color: #5A8AC6;
+    color: #894d7b;
     z-index: 2;
   }
   
@@ -50,8 +51,12 @@
   }
 
   .section-title p strong {
-    color: #F8696B;
+    color: #9980E9;
     font-weight: bolder;
+  }
+
+  .timeline {
+    justify-content: center;
   }
 
   .gallery-event {
@@ -74,7 +79,7 @@
   }
   
   .img-wrapper .overlay {
-    background: rgba(255, 122, 87, 0.7);
+    background: #d5cce7b1;
     position: absolute;
     left: 0;
     bottom: 100%;

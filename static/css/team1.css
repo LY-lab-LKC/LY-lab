@@ -1,0 +1,151 @@
+  .title {
+    text-align: center;
+    margin-top: -30px;
+  }
+  
+  .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    color: #2f4d5a;
+    z-index: 2;
+  }
+  
+  section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    overflow: hidden;
+  }
+  
+  .inner-page {
+    padding-bottom: 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    transition: all ease-in-out 1s;
+  }
+  
+  .section-title h2 {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    color: #894d7b;
+    z-index: 2;
+    transition: all ease-in-out 1s;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 122px;
+    height: 66px;
+    background: url(../img/section-title-bg.png) no-repeat;
+    z-index: -1;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  }
+  
+  .position-title {
+    text-align: center;
+    font-family: "Carme", sans-serif;
+    font-size: 42px;
+    font-weight: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 2;
+    padding-bottom: 20px;
+  }
+
+  .position-title strong {
+    font-size: 40px;
+  }
+  
+  .text-center {
+    text-align: center !important;
+    transition: all ease-in-out 0.3s;
+    text-align: justify;
+  }
+  
+  .w-100 {
+    width: 100% !important;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .position-absolute {
+    position: absolute !important;
+  }
+
+  
+  .rounded-circle {
+    width: 300px;
+    /* border-radius: 50% !important; */
+  }
+  
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+  }
+
+  .title-grp {
+    padding: 20px;
+  }
+
+  .row {
+    padding: 20px;
+  }
+
+  .member-card {
+    padding-bottom: 30px;
+  }
+
+  .details {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+  }
+
+  .member-profile {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .member-name {
+    font-size: 35px;
+  }
+
+  .member-title {
+    font-size: 22px;
+  }
+
+  .member-details {
+    font-size: 19.5px;
+  }
+
+  .member-details p {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .row {
+    padding: 10px;
+  }
+
+  .social-list {
+    font-size: 20px;
+    padding-top: 10px;
+  }

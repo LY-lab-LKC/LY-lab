@@ -14,9 +14,13 @@ app.debug = True
 def index():
     return render_template("index.html")
 
-@app.route("/group")
-def group():
-    return render_template("group.html")
+@app.route("/team")
+def team():
+    return render_template("team.html")
+
+@app.route("/team1")
+def team1():
+    return render_template("team1.html")
 
 @app.route("/publication")
 def publication():
@@ -25,6 +29,10 @@ def publication():
 @app.route("/resources")
 def resources():
     return render_template("resources.html")
+
+@app.route("/media")
+def news():
+    return render_template("media.html")
 
 @app.route("/gallery")
 def gallery():

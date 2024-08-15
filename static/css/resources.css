@@ -1,52 +1,65 @@
-.title {
-    text-align: center;
-    margin-top: -30px;
-  }
-  
-  .title h2 {
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    margin-bottom: 30px;
-    color: #2f4d5a;
-    z-index: 2;
-  }
-  
-  section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-  
-  .section-bg {
-    background-color: #f4f9fc;
-  }
-  
-  .section-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
-    font-size: 50px;
-    font-weight: bold;
-    position: relative;
-    margin-bottom: 30px;
-    color: #5A8AC6;
-    z-index: 2;
-  }
-  
-  .section-title h2::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 122px;
-    height: 66px;
-    background: url(../img/section-title-bg.png) no-repeat;
-    z-index: -1;
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
+section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #894d7b;
+  z-index: 2;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+  height: 66px;
+  background: url(../img/section-title-bg.png) no-repeat;
+  z-index: -1;
+}
+
+.resources-section {
+   padding: 10px;
+}
+
+.resources-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.resources-title:hover {
+  font-weight: bold;
+  color: #695DAB;
+}
+
+.resources-title p {
+  font-size: 20px;
+}
+
+.img-wrapper {
+  position: relative;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 30px;
+  display: block;
+  display: block;
+}
+
+.img-wrapper img {
+  position: relative;
+  width: 100%;
+  z-index: 8;
+}

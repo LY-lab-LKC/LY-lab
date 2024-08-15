@@ -4,6 +4,8 @@
 
 {% block NavPublication %}active{% endblock %}
 
+{% block HeaderClass %}header-scrolled{% endblock %}
+
 {% block main %}
 
 <main id="main">
@@ -17,68 +19,39 @@
         </div>
 
         <div class="container">
+
             <section class="pubs-section">
                 <h3 id="2023" class="pubs-year" data-aos="fade-in" data-aos-delay="100">2023</h3>
                 <div class="pubs-inv-grp" data-aos="fade-in" data-aos-delay="100">
                     <div class="pubs-inv">
-                        <a class="pubs-title" href="https://www.biorxiv.org/content/10.1101/2023.06.10.544480v2">Spatiotemporal Transcriptomes of Pig Hearts Reveal Midkine-Mediated Vascularization in a Chronic Myocardial Infarcted Model</a>
-                        <p class="pubs-name">Swarnaseetha Adusumalli, PhD.; Samantha Lim, MSc.; Vincent Ren, MD. PhD.; Li Yen Chong MSc.; Clarissa Tan MSc.; Roy Tham, B.Sc.; Ye Lei, MD. PhD.; Yibin Wang, PhD; Enrico Petretto, PhD.; Karl Tryggvason, MD. PhD; Lynn Yap, PhD</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <!-- <a type="button" class="btn btn-light btn-sm" href="https://www.biorxiv.org/content/10.1101/2023.06.10.544480v2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-                                </svg>
-                                Link
-                            </a> -->
-                            <a type="button" class="btn btn-light btn-sm" href="https://www.biorxiv.org/content/10.1101/2023.06.10.544480v2.full.pdf">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-files" viewBox="0 0 16 16">
-                                    <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1M3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/>
-                                </svg>
-                                PDF
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pubs-inv-grp" data-aos="fade-in" data-aos-delay="100">
-                    <div class="pubs-inv">
-                        <a class="pubs-title" href="https://www.nature.com/articles/s41536-023-00302-6">Pluripotent stem cell-derived committed cardiac progenitors remuscularize damaged ischemic hearts and improve their function in pigs</a>
+                        <a class="pubs-title" href="https://doi.org/10.1038/s41536-023-00302-6" target="_blank">Pluripotent stem cell-derived committed cardiac progenitors remuscularize damaged ischemic hearts and improve their function in pigs</a>
                         <p class="pubs-name">Lynn Yap, Li Yen Chong, Clarissa Tan, Swarnaseetha Adusumalli, Millie Seow, Jing Guo, Zuhua Cai, Sze Jie Loo, Eric Lim, Ru San Tan, Elina Grishina, Poh Loong Soong, Narayan Lath, Lei Ye, Enrico Petretto, Karl Tryggvason</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <!-- <a type="button" class="btn btn-light btn-sm" href="https://www.nature.com/articles/s41536-023-00302-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-                                </svg>
-                                Link
-                            </a> -->
-                            <a type="button" class="btn btn-light btn-sm" href="https://www.nature.com/articles/s41536-023-00302-6.epdf?sharing_token=3cYdDCAWGSB8kN-doKB029RgN0jAjWel9jnR3ZoTv0Pq7X0jegKD6_QZNp88xx_ZkNxa8B1U-DasB7Gq2fmIRW9DjDuFLTC289IcZ82V5vgEba9efLTpSeui56qXyWbuX8vkuJm9fDz5i2_T8f-Q4oBCLcMRKgrpGeODdDtCqkg%3D">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-files" viewBox="0 0 16 16">
-                                    <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1M3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/>
-                                </svg>
-                                PDF
-                            </a>
-                        </div>
+                        <p class="pubs-name">npj Regenerative Medicine volume 8, Article number: 26 (2023)</p>
                     </div>
                 </div>
-            </section>
-            <section class="pubs-section">
-                <h3 id="2020" class="pubs-year" data-aos="fade-in" data-aos-delay="100">2020</h3>
                 <div class="pubs-inv-grp" data-aos="fade-in" data-aos-delay="100">
                     <div class="pubs-inv">
-                        <a class="pubs-title" href="https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30269-4?dgcid=raven_jbs_etoc_email">In Vivo Generation of Post-infarct Human Cardiac Muscle by Laminin-Promoted Cardiovascular Progenitors</a>
-                        <p class="pubs-name">Lynn Yap, Jiong-Wei Wang, Aida Moreno-Moral, Li Yen Chong, Yi Sun, Nathan Harmston, Xiaoyuan Wang, Suet Yen Chong, Konstantinos Vanezis, Miina K Öhman, Heming Wei, Ralph Bunte, Sujoy Gosh, Stuart Cook, Outi Hovatta, Dominique PV de Kleijn, Enrico Petretto, Karl Tryggvason</p>
-                        <p class="pubs-name" href="https://doi.org/10.1016/j.celrep.2019.02.083">Cell Reports 31 (8)</p>
+                        <a class="pubs-title" href="https://doi.org/10.1101/2023.06.10.544480" target="_blank">Spatiotemporal Transcriptomes of Pig Hearts Reveal Midkine-Mediated Vascularization in a Chronic Myocardial Infarcted Model</a>
+                        <p class="pubs-name">Lynn Yap, Swarnaseetha Adusumalli, Samantha Lim, Vincent Ren, Li Yen Chong, Clarissa Tan, Roy Tham, Ye Lei, Yibin Wang, Enrico Petretto, Karl Tryggvason</p>
+                        <p class="pubs-name">bioRxiv, 2023.06. 10.544480</p>
                     </div>
                 </div>
             </section>
+
             <section class="pubs-section">
                 <h3 id="2019" class="pubs-year" data-aos="fade-in" data-aos-delay="100">2019</h3>
                 <div class="pubs-inv-grp" data-aos="fade-in" data-aos-delay="100">
                     <div class="pubs-inv">
-                        <a class="pubs-title" href="https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30269-4?dgcid=raven_jbs_etoc_email">In Vivo Generation of Post-infarct Human Cardiac Muscle by Laminin-Promoted Cardiovascular Progenitors</a>
+                        <a class="pubs-title" href="https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30269-4?dgcid=raven_jbs_etoc_email" target="_blank">In Vivo Generation of Post-infarct Human Cardiac Muscle by Laminin-Promoted Cardiovascular Progenitors</a>
                         <p class="pubs-name">Lynn Yap, Jiong-Wei Wang, Aida Moreno-Moral, Li Yen Chong, Yi Sun, Nathan Harmston, Xiaoyuan Wang, Suet Yen Chong, Konstantinos Vanezis, Miina K Öhman, Heming Wei, Ralph Bunte, Sujoy Gosh, Stuart Cook, Outi Hovatta, Dominique PV de Kleijn, Enrico Petretto, Karl Tryggvason</p>
-                        <p class="pubs-name" href="https://doi.org/10.1016/j.celrep.2019.02.083">Cell reports 26 (12), 3231-3245. e9</p>
+                        <p class="pubs-name">Cell reports 26 (12), 3231-3245. e9</p>
+                    </div>
+                </div>
+                <div class="pubs-inv-grp" data-aos="fade-in" data-aos-delay="100">
+                    <div class="pubs-inv">
+                        <a class="pubs-title" href="https://doi.org/10.1016/j.tcb.2019.10.001" target="_blank">Laminins in Cellular Differentiation</a>
+                        <p class="pubs-name">Lynn Yap, Hwee Goon Tay, Mien T.X. Nguyen, Monica S. Tjin, Karl Tryggvason</p>
+                        <p class="pubs-name">Cell reports 29 (12), P987-1000</p>
                     </div>
                 </div>
             </section>

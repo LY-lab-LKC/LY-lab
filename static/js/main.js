@@ -70,19 +70,16 @@
     onscroll(document, headerScrolled)
   }
 
-  // let selectHeader = select('#header')
-  // var aboutusTarget = document.getElementById("aboutus");
-  // if (selectHeader) {
-  //   const headerScrolled = () => {
-  //     if (window.scrollY > aboutusTarget.offsetTop) {
-  //       selectHeader.classList.add('header-scrolled')
-  //     } else {
-  //       selectHeader.classList.remove('header-scrolled')
-  //     }
-  //   }
-  //   window.addEventListener('load', headerScrolled)
-  //   onscroll(document, headerScrolled)
-  // }
+  const preloader = document.querySelector('#loader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+      }, 1000);
+      setTimeout(() => {
+        preloader.remove();
+      }, 2000);
+    });
+  }
 
   /**
    * Back to top button
@@ -150,3 +147,20 @@
     });
   });
 })()
+
+$(function() {
+
+	$('.owl-1').owlCarousel({
+
+    loop:true,
+    margin:0,
+    nav:true,
+    items: 1,
+    smartSpeed: 1000,
+    autoplay: true,
+    autoplayHoverPause: true,
+    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
+	})
+
+	
+})
